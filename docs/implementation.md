@@ -1,15 +1,3 @@
-## **Visão Geral**
-O **dotnet-metrics-app-plugin** adiciona em uma stack o uso de métricas para aplicações que executam dentro de containers. Gerando métricas, tais como: counter, gauge, histogram e summary.
-
-## **Uso**
-
-#### **Pré-requisitos**
-Para utilizar esse plugin é necessário ter uma stack dotnet criada pelo `CLI` do `StackSpot` que você pode baixar [**aqui**](https://stackspot.com/).
-
-Ter instalado:
-- .NET 5 ou 6 
-- O template `dotnet-api-template` ou o `dotnet-worker-template` deverá estar aplicado para você conseguir utilizar este plugin.
-
 ### **Inputs**
 Os inputs necessários para utilizar o plugin são:
 | **Campo** | **Valor** | **Descrição** |
@@ -227,6 +215,3 @@ stackspot_processing_time_seconds_bucket{le="0.9"} 1
 stackspot_processing_time_seconds_bucket{le="1"} 1
 stackspot_processing_time_seconds_bucket{le="+Inf"} 1
 ```
-
-### **Implementação**
-- [**Nuget**](https://www.nuget.org/packages/StackSpot.Metrics/)
