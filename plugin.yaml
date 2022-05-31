@@ -1,4 +1,4 @@
-name: dotnet-metrics-app-plugin
+name: dotnet-metrics-plugin
 description: Plugin para configurar métricas em seu projeto.
 types:
   - app

@@ -1,5 +1,5 @@
 ## **Visão Geral**
-O **dotnet-metrics-app-plugin** adiciona em uma stack o uso de métricas para aplicações que executam dentro de containers. Gerando métricas, tais como: counter, gauge, histogram e summary.
+O **dotnet-metrics-plugin** adiciona em uma stack o uso de métricas para aplicações que executam dentro de containers. Gerando métricas, tais como: counter, gauge, histogram e summary.
 
 ## **Uso**
 
